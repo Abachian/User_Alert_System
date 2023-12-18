@@ -36,6 +36,12 @@ Solución:
 - Legibilidad del código: Miramos la elección de los nombres de las variables, los nombres de los métodos y de las clases. ¿Son lo suficientemente representativos como para entender su funcionamiento o propósito, si lo leyera un compañero tuyo sin que vos estés?
 - Principio de responsabilidad única: Cada clase, ¿tiene una única responsabilidad?¿Cada método hace una única cosa? (¿O tienen mucho código y se podría refactorizar en varios métodos más cortitos?).
 - Unit Test: ¿Hay tests que prueben el correcto funcionamiento de los casos de uso?
+## Ejercicio SQL
+ Escribir una consulta SQL que traiga todos los clientes que han comprado en total más de 100,000$ en los últimos 12 meses usando las siguientes tablas:
+
+Clientes: ID, Nombre, Apellido
+
+Ventas: Fecha, Sucursal, Numero_factura, Importe, Id_cliente
 
 ## Resolucion
 
